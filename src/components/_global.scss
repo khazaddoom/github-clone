@@ -1,15 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body {
-    background-color: $color-tomato;
-    font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    color: $primary-text-color;
+html,
+body {
+  background-color: $bg-white-2;
+  font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: $primary-text-color;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
