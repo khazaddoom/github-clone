@@ -3,6 +3,7 @@
     padding: 1rem 1rem;
     border-radius: 5px;
     margin: 1rem;
+    font-weight: 700;
     img {
         height: 0.65rem;
         width: 0.75rem;
@@ -15,6 +16,5 @@
         background: $bg-white-1;
         color: $bg-blue-1;
         border: 1px solid $bg-blue-1;
-        font-weight: 700;
     }
 }
