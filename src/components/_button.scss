@@ -3,6 +3,10 @@
     padding: 1rem 1rem;
     border-radius: 5px;
     margin: 1rem;
+    img {
+        height: 0.65rem;
+        width: 0.75rem;
+    }
     &-primary {
         background: $bg-blue-1;
         color: $bg-white-1;
