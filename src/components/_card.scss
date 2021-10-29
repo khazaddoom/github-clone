@@ -1,0 +1,36 @@
+.getting-started {
+    text-align: center;
+    padding: 3rem 0;
+    &__body {
+        h1 {
+            color: $text-black-1;
+            font-size: 2rem;
+            text-align: center;
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+        .sub {
+            font-size: 1.25rem;
+            color: $text-gray-2;
+            padding: 0 6rem;
+            font-weight: 700;
+            margin: 2rem 0;
+        }
+        &__item {
+            margin: 1rem 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h1 {
+                font-size: 1rem;
+                font-weight: 900;
+                margin: 0.5rem 0;
+            }
+            .subtitle {
+                color: $text-gray-3;
+                font-size: 0.9rem;
+            }
+        }
+    }
+}

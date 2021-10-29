@@ -1,9 +1,13 @@
 .btn {
     color: $text-white;
-    padding: 1rem 1rem;
+    padding: 1.25rem 1rem;
     border-radius: 5px;
     margin: 1rem;
-    font-weight: 700;
+    font-weight: 900;
+    display: block;
+    text-align: center;
+    width: auto;
+    width: 175px;
     img {
         height: 0.65rem;
         width: 0.75rem;
