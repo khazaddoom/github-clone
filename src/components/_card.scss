@@ -2,19 +2,23 @@
     text-align: center;
     padding: 3rem 0;
     &__body {
+        padding: 3rem 0;
+        margin: 1.15rem;
+        box-shadow: 0 0 50px $shadow-1;
+        border-radius: 5px;
         h1 {
             color: $text-black-1;
-            font-size: 2rem;
+            font-size: 1.5rem;
             text-align: center;
             font-weight: 700;
             margin-bottom: 2rem;
         }
         .sub {
-            font-size: 1.25rem;
+            font-size: 1rem;
             color: $text-gray-2;
-            padding: 0 6rem;
             font-weight: 700;
             margin: 2rem 0;
+            padding: 0 1.5rem;
         }
         &__item {
             margin: 1rem 0;
