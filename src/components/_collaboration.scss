@@ -1,0 +1,21 @@
+.collaboration {
+    text-align: center;
+    margin: 3rem 0;
+    h5 {
+        font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace !important;
+        font-size: 1.5rem;
+        color: $text-gray-2;
+    }
+    h1 {
+        font-size: 3rem;
+        padding: 0 4rem;
+        line-height: 5rem;
+    }
+    p {
+        color: $text-gray-2;
+        padding: 0 1.5rem;
+        font-size: 1.25rem;
+        margin: 1rem 0;
+        line-height: 2rem;
+    }
+}
