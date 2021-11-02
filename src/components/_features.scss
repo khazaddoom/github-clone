@@ -4,6 +4,9 @@
         width: 70%;
         display: block;
         margin: auto;
+        &--full {
+            width: 100%;
+        }
     }
     .texts {
         &__item {
