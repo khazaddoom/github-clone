@@ -1,12 +1,10 @@
 .tag {
+    margin: 0.5rem 0;
     border: 1px solid $text-black-1;
     display: inline-block;
-    padding: 0.25rem 0.5rem;
-    font-size: 0.85rem;
-    border-top-left-radius: 35%;
-    border-top-right-radius: 35%;
-    border-bottom-left-radius: 35%;
-    border-bottom-right-radius: 35%;
+    padding: 0.075rem 0.35rem;
+    font-size: 0.595rem;
+    border-radius: 1em;
     &--new {
         color: $text-green;
         border-color: $text-green;
