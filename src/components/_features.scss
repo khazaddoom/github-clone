@@ -1,0 +1,31 @@
+.features {
+    margin: 3rem 1.15rem;
+    &-brand {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+    .texts {
+        &__item {
+            margin: 1.5rem 0;
+            color: $text-gray-2;
+            h3 {
+                color: $text-gray-1;
+                margin: 1rem 0;
+            }
+            &__section {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                p {
+                    color: $text-gray-3;
+                    flex: 0.9
+                }
+                img {
+                    width: .75rem;
+                }
+            }
+            
+        }
+    }
+}
