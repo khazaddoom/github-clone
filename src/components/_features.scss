@@ -7,7 +7,7 @@
     }
     .texts {
         &__item {
-            margin: 1.5rem 0;
+            margin: 1.5rem 1rem;
             color: $text-gray-2;
             h3 {
                 color: $text-gray-1;
@@ -18,11 +18,16 @@
                 justify-content: space-between;
                 align-items: center;
                 p {
-                    color: $text-gray-3;
+                    color: $text-gray-2;
                     flex: 0.9
                 }
                 img {
                     width: .75rem;
+                }
+                a {
+                    color: $text-blue-2;
+                    text-decoration: underline dotted;
+                    font-weight: 700;
                 }
             }
             
