@@ -1,15 +1,21 @@
 .businesses {
-    margin: 1.15rem;
+    margin: 3rem 1.15rem;
     p {
-        font-size: 1rem;
+        font-size: 1.25rem;
         color: $text-gray-2;
         font-weight: 700;
         margin: 2rem 0;
         padding: 0 2rem;
         text-align: center;
     }
-    img {
-        width: 4rem;
-        margin: 1rem;
+    &__logos {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        img {
+            width: 20%;
+            margin: 0 0.75rem;
+        }
     }
 }
