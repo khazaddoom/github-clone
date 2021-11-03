@@ -1,0 +1,19 @@
+.hosting {
+  margin: 3rem 1.15rem;
+  .texts {
+    h3 {
+      color: $text-gray-1;
+      margin: 1rem 0;
+    }
+    p {
+      color: $text-gray-2;
+      flex: 0.9;
+    }
+    a {
+      color: $text-blue-2;
+      font-weight: 700;
+      display: block;
+      width: 50%;
+    }
+  }
+}
