@@ -33,4 +33,59 @@
       }
     }
   }
+  &-subcontent {
+    margin: 5rem 1.15rem;
+    .stat-container {
+      .main {
+        text-align: center;
+        color: $text-white;
+        font-weight: 900;
+        border-radius: 50%;
+        height: 12.5rem;
+        width: 12.5rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .key {
+          font-size: 2rem;
+        }
+        &--orange {
+          background-color: $test-orange;
+        }
+        &--blue {
+          background-color: $bg-blue-1;
+        }
+        &--purple {
+          background-color: $bg-purple;
+        }
+      }
+      &__item {
+        margin: 1rem 0;
+        .details {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          p {
+              color: $text-gray-2;
+              flex: 0.9
+          }
+          img {
+            width: .75rem;
+          }
+          a {
+              color: $text-blue-2;
+              text-decoration: underline dotted;
+              font-weight: 700;
+          }
+        }
+      }
+    }
+    .asof {
+      margin: 3.5rem 0;
+      color: $text-gray-2;
+      font-size: 0.75rem;
+    }
+  }
 }
