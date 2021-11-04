@@ -11,3 +11,16 @@
         margin: 1rem 0;
     }
 }
+
+.free {
+  text-align: center;
+  margin: 3rem 1.15rem;
+  p {
+    color: $text-gray-2;
+    margin: 1rem 0;
+  }
+  a {
+    color: #1074e7;
+    font-weight: 700;
+  }
+}
