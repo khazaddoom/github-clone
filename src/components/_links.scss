@@ -1,0 +1,22 @@
+.links {
+    margin: 3rem 1.15rem;
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        &__item {
+            margin-top: 2rem;
+            width: 13rem;
+            a {
+                display: block;
+                margin: 0.75rem 0;
+                color: $text-gray-1;
+                font-weight: 700;
+            }
+            h3 {
+                font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace !important;
+                color: $text-gray-3;
+                font-weight: 700;
+            }
+        }
+    }
+}
