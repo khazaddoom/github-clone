@@ -1,0 +1,12 @@
+.integrations {
+    margin: 3rem 1.15rem;
+    &__logos {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        img {
+            margin: 2rem;
+            width: 5rem;
+        }
+    }
+}
