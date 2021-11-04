@@ -1,5 +1,22 @@
 footer {
-    h3 {
-        font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace !important;
-    }
+    margin: 3rem 1.15rem;
+    color: $text-gray-2;
+   .social-icons {
+       img {
+            margin: 0.25rem 0.75rem 0.25rem 0;
+            width: 1.5rem;
+       }
+       margin-bottom: 1rem;
+   }
+   a {
+       color: $text-gray-2;
+       font-weight: 700;
+   }
+   .footer__links {
+       display: flex;
+       justify-content: space-between;
+       span, a {
+           margin-right: 0.1rem;
+       }
+   }
 }
