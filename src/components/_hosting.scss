@@ -1,19 +1,27 @@
 .hosting {
   margin: 3rem 1.15rem;
+  border: 2px solid $text-gray-4;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  &-icon {
+    margin-right: 4rem;
+    width: 50%;
+  }
   .texts {
     h3 {
       color: $text-gray-1;
-      margin: 1rem 0;
     }
     p {
       color: $text-gray-2;
-      flex: 0.9;
+      margin-bottom: 1rem;
     }
     a {
       color: $text-blue-2;
       font-weight: 700;
       display: block;
-      width: 50%;
+      width: 70%;
     }
   }
 }
