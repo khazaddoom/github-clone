@@ -18,8 +18,55 @@
 
         }
     }
+    .signup-container {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 600px) {
-    
+    .hero {
+        display: flex;
+        justify-content: space-evenly;
+        &-texts {
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .signup-container {
+            display: block;
+            text-align: left;
+            background-color: white;
+            margin: 0 1rem;
+            border-radius: 5px;
+            flex: 0.5;
+            form {
+                .element {
+                    margin: .25rem 0;
+                }
+                p {
+                    color: $text-gray-1;
+                    font-size: 0.75rem;
+                    margin: 1rem 0;
+                    .link {
+                        color: $text-blue-1;
+                        font-weight: bold;
+                    }
+                }
+                label {
+                    color: $text-black-1 !important;
+                }
+                input {
+                    outline: 1px solid $text-gray-4;
+                }
+            }
+            .consent {
+                a {
+                    color: $text-blue-1;
+                    font-weight: bold;
+                }
+            }
+        }
+    }   
 }
