@@ -7,6 +7,9 @@ header {
     .logo {
         width: 2.5rem;
     }
+    .nav-links, .search, .btn {
+        display: none;
+    }
 }
 
 .mobile-menu {
@@ -14,5 +17,44 @@ header {
     align-items: center;
     &-icon {
         width: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    header {
+        .nav-links {
+            display: block;
+            ul {
+                display: flex;
+                li {
+                    list-style-type: none;
+                    color: $text-white;
+                    margin: 0 1rem;
+                }
+            }
+        }
+        .search, .btn {
+            display: block;
+        }
+        .search {
+            input {
+                padding: 0.75rem 0.75rem;
+                border-radius: 6px;
+                background-color: $text-gray-1;
+                &::placeholder {
+                    color: $text-gray-3;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .mobile-menu {
+        &-icon {
+            display: none;
+        }
+    }
+    .group {
+        display: flex;
+        align-items: center;
     }
 }
