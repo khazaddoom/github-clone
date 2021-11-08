@@ -46,10 +46,11 @@
 
 @media only screen and (min-width: 1100px) {
     .getting-started {
-        margin: 3rem 5rem;
+        margin: 6rem 2rem;
         &__body {
             display: flex;
             position: relative;
+            margin: 0;
             &__heading {
                 flex: 0.75;
                 padding-left: 3rem;
