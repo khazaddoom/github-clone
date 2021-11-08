@@ -37,3 +37,20 @@
         }
     }
 }
+
+@media only screen and (min-width: 1100px) {
+    .features {
+        margin: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 45%;
+        }
+        .texts {
+            &__item {
+                margin: 3rem 1rem;
+            }
+        }
+    }
+}
