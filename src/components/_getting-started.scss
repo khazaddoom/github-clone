@@ -38,6 +38,9 @@
                 font-size: 0.9rem;
             }
         }
+        &::before {
+            display: none;
+        }
     }
 }
 
@@ -46,6 +49,7 @@
         margin: 3rem 5rem;
         &__body {
             display: flex;
+            position: relative;
             &__heading {
                 flex: 0.75;
                 padding-left: 3rem;
@@ -60,6 +64,16 @@
             }
             &__item {
                 flex: 0.5;
+            }
+            &::before {
+                display: block;
+                position: absolute;
+                content: ' ';
+                top: -11rem;
+                right: 0;
+                background: url('/assets/images/space.svg') no-repeat;
+                width: 30rem;
+                height: 25rem;
             }
         }
     }
