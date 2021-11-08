@@ -19,3 +19,12 @@
         line-height: 2rem;
     }
 }
+
+@media only screen and (min-width: 1100px) {
+    .collaboration {
+        p {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+    }
+}
