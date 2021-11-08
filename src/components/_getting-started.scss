@@ -6,6 +6,9 @@
         margin: 1.15rem;
         box-shadow: 0 0 50px $shadow-1;
         border-radius: 5px;
+        &__heading {
+            padding: 0 1.5rem;
+        }
         h1 {
             color: $text-black-1;
             font-size: 1.5rem;
@@ -18,7 +21,6 @@
             color: $text-gray-2;
             font-weight: 700;
             margin: 2rem 0;
-            padding: 0 1.5rem;
         }
         &__item {
             margin: 1rem 0;
@@ -41,16 +43,19 @@
 
 @media only screen and (min-width: 1100px) {
     .getting-started {
+        margin: 3rem 5rem;
         &__body {
             display: flex;
             &__heading {
                 flex: 0.75;
+                padding-left: 3rem;
                 text-align: left;
                 h1 {
+                    font-size: 2.75rem;
                     text-align: left;
                 }
-                .sub {
-                    padding: 0;
+                p {
+                    text-align: left;
                 }
             }
             &__item {
