@@ -32,49 +32,54 @@
   }
   &-subcontent {
     margin: 5rem 1.15rem;
-    .stat-container {
-      .main {
-        text-align: center;
-        color: $text-white;
-        font-weight: 900;
-        border-radius: 50%;
-        height: 12.5rem;
-        width: 12.5rem;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        .key {
-          font-size: 2rem;
-        }
-        &--orange {
-          background-color: $test-orange;
-        }
-        &--blue {
-          background-color: $bg-blue-1;
-        }
-        &--purple {
-          background-color: $bg-purple;
-        }
+    .stat {
+      &-graphic {
+        display: none;
       }
-      &__item {
-        margin: 1rem 0;
-        .details {
+      &-container {
+        .main {
+          text-align: center;
+          color: $text-white;
+          font-weight: 900;
+          border-radius: 50%;
+          height: 12.5rem;
+          width: 12.5rem;
+          margin: auto;
           display: flex;
-          justify-content: space-between;
+          flex-direction: column;
+          justify-content: center;
           align-items: center;
-          p {
-              color: $text-gray-2;
-              flex: 0.9
+          .key {
+            font-size: 2rem;
           }
-          img {
-            width: .75rem;
+          &--orange {
+            background-color: $test-orange;
           }
-          a {
-              color: $text-blue-2;
-              text-decoration: underline dotted;
-              font-weight: 700;
+          &--blue {
+            background-color: $bg-blue-1;
+          }
+          &--purple {
+            background-color: $bg-purple;
+          }
+        }
+        &__item {
+          margin: 1rem 0;
+          .details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p {
+                color: $text-gray-2;
+                flex: 0.9
+            }
+            img {
+              width: .75rem;
+            }
+            a {
+                color: $text-blue-2;
+                text-decoration: underline dotted;
+                font-weight: 700;
+            }
           }
         }
       }
@@ -93,6 +98,63 @@
     &-content {
       display: flex;
       gap: 1rem;
+    }
+    &-subcontent {
+      margin: 5rem 1.15rem 10rem 1.15rem;
+      .stat {
+        display: flex;
+        &-graphic {
+          display: block;
+          flex: 1;
+          position: relative;
+          .main {
+            position: absolute;
+            text-align: center;
+            color: $text-white;
+            font-weight: 900;
+            border-radius: 50%;
+            height: 12.5vw;
+            width: 12.5vw;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .key {
+              font-size: 2rem;
+            }
+            &--orange {
+              background-color: $test-orange;
+              height: 17vw;
+              width: 17vw;
+              left: 10%;
+            }
+            &--blue {
+              background-color: $bg-blue-1;
+              right: 20%;
+            }
+            &--purple {
+              background-color: $bg-purple;
+              height: 10vw;
+              width: 10vw;
+              top: 25vh;
+              right: 34%;
+            }
+          }
+        }
+        &-container {
+          flex: 1;
+          .main {
+            display: none;
+          }
+          &__item {
+            .details {
+              margin-bottom: 2rem;
+              max-width: 500px;
+            }
+          }
+        }
+      }
     }
   }
 }
