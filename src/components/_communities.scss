@@ -21,9 +21,6 @@
         width: 100%;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
-        .clip {
-
-        }
       }
       .link {
         color: $text-blue-2;
@@ -86,6 +83,16 @@
       margin: 3.5rem 0;
       color: $text-gray-2;
       font-size: 0.75rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .community {
+    margin: 6rem 2rem;
+    &-content {
+      display: flex;
+      gap: 1rem;
     }
   }
 }
