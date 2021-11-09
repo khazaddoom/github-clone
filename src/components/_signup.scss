@@ -1,7 +1,7 @@
 .signup {
     background-color: $bg-black-1;
-    padding: 1rem 1.15rem;
     &-container {
+        padding: 1rem 1.15rem;
         h1.title {
             color: $bg-white-3;
             font-size: 1.75rem;
@@ -43,15 +43,21 @@
 @media only screen and (min-width: 1100px) {
     .signup-container {
         margin: 6rem;
+        h1.title {
+            max-width: 1000px;
+            margin: 3rem auto;
+        }
         &__form {
-           form {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: flex-start;
-            a {
-                flex: 0.5;
-                align-self: center;
-            }
+           .signup_form {
+                &--horizontal {
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: flex-start;
+                }
+                a {
+                    flex: 0.5;
+                    align-self: center;
+                }
            }
         }
     }
