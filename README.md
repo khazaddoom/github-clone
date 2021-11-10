@@ -1,9 +1,12 @@
 # github-clone
 
-Run ```javascript
+### Install using: 
+```javascript
 npm install
 ```
+### Run Dev Server using: 
+```javascript
+npm run dev
+```
 
-Run npm run dev
-
-launch a new browser window and run http://localhost:1234 to see the website
+Launch a new browser window and run http://localhost:1234 to see the website
