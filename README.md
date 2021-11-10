@@ -1,6 +1,8 @@
 # github-clone
 
-Run ```javascript npm install ```
+Run ```javascript
+npm install
+```
 
 Run npm run dev
 
